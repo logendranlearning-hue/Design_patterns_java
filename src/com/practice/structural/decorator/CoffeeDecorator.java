@@ -1,4 +1,4 @@
-package com.practice.structural.adapter.decorator;
+package com.practice.structural.decorator;
 
 /**
  * This is started for new options for coffee - Decorator base class

@@ -1,4 +1,4 @@
-package com.practice.structural.adapter.decorator;
+package com.practice.structural.decorator;
 
 /**
  * Simple coffee prepared for legacy system - concrete class

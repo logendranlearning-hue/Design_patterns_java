@@ -1,4 +1,4 @@
-package com.practice.structural.adapter.decorator;
+package com.practice.structural.decorator;
 
 /**
  * This is new add on for coffee that works with decorator - Decorator concrete class

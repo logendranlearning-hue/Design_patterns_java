@@ -1,4 +1,4 @@
-package com.practice.structural.adapter.decorator;
+package com.practice.structural.decorator;
 
 /**
  * Basic coffee interface used for legacy system - Base interface
