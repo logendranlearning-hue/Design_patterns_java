@@ -58,6 +58,10 @@ public class SingletonTestMain {
         System.out.printf("Print enumSingleton2 properties. %s , %d, %d \n", enumSingleton1.getName(), enumSingleton1.getValue(), enumSingleton1.hashCode());
         System.out.println("Are both Enum instances the same? " + (enumSingleton1 == enumSingleton2));
 
+        // test BillPugSingleton
+        BillPugSingleton billPugSingleton1 = BillPugSingleton.getInstance();
+        BillPugSingleton billPugSingleton2 = BillPugSingleton.getInstance();
+        System.out.printf("Are both BillPugSingleton instances the same? %b \n", billPugSingleton1 == billPugSingleton2);
 
     }
 
