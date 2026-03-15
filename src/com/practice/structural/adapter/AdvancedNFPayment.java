@@ -1,4 +1,4 @@
-package com.practice.structural.adapter.simple;
+package com.practice.structural.adapter;
 
 /**
  * This is new advanced payment system which needs to be added to the older payment process

@@ -1,4 +1,4 @@
-package com.practice.structural.adapter.simple;
+package com.practice.structural.adapter;
 
 /**
  * This is the existing card swipe payment system which is being used by the client code.

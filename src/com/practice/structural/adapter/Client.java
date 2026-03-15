@@ -1,10 +1,10 @@
-package com.practice.structural.adapter.simple;
+package com.practice.structural.adapter;
 
 /**
  * Execution class which demonstrates the use of adapter pattern to integrate a new advanced payment system into the existing payment process without changing the client code.
  */
 public class Client {
-    public static void main(String[] args) {
+    static void main() {
         // old payment process
         PaymentProcessor cardPaymentProcessor = new CardSwipePayment();
         cardPaymentProcessor.processAmount(500);

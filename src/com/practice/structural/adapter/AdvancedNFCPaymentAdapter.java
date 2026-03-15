@@ -1,4 +1,4 @@
-package com.practice.structural.adapter.simple;
+package com.practice.structural.adapter;
 
 public class AdvancedNFCPaymentAdapter implements PaymentProcessor {
     private AdvancedNFPayment advancedNFPayment;
