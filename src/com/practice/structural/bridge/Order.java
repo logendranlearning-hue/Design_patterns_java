@@ -7,7 +7,8 @@ package com.practice.structural.bridge;
  */
 public class Order {
     static void main() {
-
+        // the order only dealing with abstraction not the implementation.
+        // calls the deliver() method but implementation taking care of all the required method calls
         Location hyderbadiChicken = new HyderabadLocation(new NonVegBiriyani());
         hyderbadiChicken.deliver();
         System.out.println("====================================");
